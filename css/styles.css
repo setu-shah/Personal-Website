@@ -199,6 +199,10 @@ button:focus,
     padding: 10px;
 }
 
+.capitalize {
+    text-transform: capitalize;
+}
+
 h1,
 h2,
 h3,
