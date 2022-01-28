@@ -1212,7 +1212,6 @@ img#starry-logo,
 img#mullen-logo,
 img#nu-logo {
     height: auto;
-    display: block;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
@@ -1224,13 +1223,13 @@ img#starry-logo {
 }
 
 img#mullen-logo {
-    width: 200px;
-    margin: 0 auto 10px;
+    width: 33%;
+    margin: 40px 20px 40px;
 }
 
 img#nu-logo {
-    width: 120px;
-    margin: 0 auto;
+    width: 33%;
+    margin: 40px 20px 40px;
 }
 
 @media screen and (max-width: 768px) {
@@ -1257,9 +1256,11 @@ img#nu-logo {
     #experience p {
         padding-bottom: 20px;
     }
-    .skills,
-    .employment {
+    .skills  {
         display: block;
+        width: 100%;
+    }
+    .employment {
         width: 100%;
     }
     img#nu-logo {
